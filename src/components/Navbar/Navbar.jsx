@@ -1,41 +1,41 @@
-import React from 'react';
+import { NavbarContainer, NavbarList, NavbarLoginBtn } from './NavbarStyles';
 
 const Navbar = () => {
   return (
-    <div>
-      <img />
-      <div>
-        <div>
+    <NavbarContainer>
+      {/* <img /> */}
+      LOGO
+      <NavbarList>
+        <div className="navbarlist--container">
           <p>Fashion & Beauty </p>
-          drop arrow
+          <i class="uil uil-angle-down"></i>
         </div>
-        <div>
+        <div className="navbarlist--container">
           <p>Health & Wellness</p>
-          drop arrow
+          <i class="uil uil-angle-down"></i>
         </div>
-        <div>
+        <div className="navbarlist--container">
           <p>Food & Drinks</p>
-          drop arrow
+          <i class="uil uil-angle-down"></i>
         </div>
-        <div>
+        <div className="navbarlist--container">
           <p>Art & Crafts</p>
-          drop arrow
+          <i class="uil uil-angle-down"></i>
         </div>
-        <div>
+        <div className="navbarlist--container">
           <p>Furniture & Interiors</p>
-          drop arrow
+          <i class="uil uil-angle-down"></i>
         </div>
-        <div>
+        <div className="navbarlist--container">
           <p>Learning</p>
-          drop arrow
+          <i class="uil uil-angle-down"></i>
         </div>
-        <div>
+        <div className="navbarlist--container">
           <p>Others</p>
-          drop arrow
+          <i class="uil uil-angle-down"></i>
         </div>
-      </div>
-
-      <div>
+      </NavbarList>
+      <NavbarLoginBtn>
         <ul>
           <li>
             <a> Become a producer</a>
@@ -47,8 +47,8 @@ const Navbar = () => {
             <a> Login</a>
           </li>
         </ul>
-      </div>
-    </div>
+      </NavbarLoginBtn>
+    </NavbarContainer>
   );
 };
 
