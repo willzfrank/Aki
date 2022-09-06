@@ -41,10 +41,21 @@ export const NavbarLoginBtn = styled.div`
       border: none;
       cursor: pointer;
       border-radius: 5px;
+
+      li{
+        
+      }
     }
+
     li {
       list-style: none;
       cursor: pointer;
+
+      .link{
+      color:white;
+      text-decoration:none;
+    }
+    
     }
   }
 `;

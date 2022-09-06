@@ -1,4 +1,5 @@
 import { NavbarContainer, NavbarList, NavbarLoginBtn } from './NavbarStyles';
+import {Link} from "react-router-dom"
 
 const Navbar = () => {
   return (
@@ -41,10 +42,10 @@ const Navbar = () => {
             <a> Become a producer</a>
           </li>
           <li>
-            <a> Register</a>
+            <Link to="/register" className="link">Register</Link>
           </li>
           <li className="login--btn">
-            <a> Login</a>
+            <Link to="/login" className="link">Login</Link> 
           </li>
         </ul>
       </NavbarLoginBtn>

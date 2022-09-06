@@ -32,9 +32,10 @@ span{
     padding:15px 35px;
     border:1px solid grey;
     border-radius:5px;
+    outline:none;
 
     :hover{
-        outline:lime;
+        outline:green;
     }
 }
 
@@ -42,6 +43,7 @@ span{
     padding:15px 35px;
     border:1px solid grey;
     border-radius:5px;
+    outline:none;
 
     :hover{
         outline:lime;
@@ -51,7 +53,7 @@ span{
 .F-password{
     cursor:pointer;
     font-weight:bold;
-    margin-bottom:30px;
+    margin-bottom:25px;
 }
 
 .login--btn{
@@ -62,7 +64,7 @@ span{
     padding:15px 100px;
     background:#4267B2;
     color:white;
-    margin-bottom:15px;
+    margin-bottom:10px;
 }
 
 .facebook--btn{

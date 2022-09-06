@@ -6,7 +6,6 @@ const Login = () => {
     <LoginComponent>
       <div className="login--header">
         <Link to="/"><i class="uil uil-multiply"></i></Link>
-       
       </div>
       <LoginContent>
         <img src="" alt="" />
@@ -18,7 +17,6 @@ const Login = () => {
         <input type="password" placeholder="Password" className="password"/>
         <p className="F-password">Forgot password?</p>
         <input type="button" value="Login" className="login--btn" />
-        {/* <Link to="/login">Login</Link> */}
         <p>
           Dont have an account? <a href="#">Sign up</a>
         </p>
