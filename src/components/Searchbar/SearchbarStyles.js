@@ -12,7 +12,7 @@ export const FormContainer = styled.div`
   input {
     background: grey;
     border: none;
-    width: 80%;
+    width: 60%;
     padding: 15px;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
