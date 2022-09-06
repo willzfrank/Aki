@@ -5,6 +5,14 @@ export const NewsletterContainer = styled.section`
   display: flex;
   background: yellow;
 
+  @media (max-width: 576px) {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:30px 0px;
+  }
+
   h2 {
     margin-bottom: 10px;
   }
@@ -12,6 +20,10 @@ export const NewsletterContainer = styled.section`
   p {
     line-height: 28px;
     margin-bottom: 30px;
+
+      @media (max-width: 576px) {
+    padding:0 15px;
+  }
   }
 
   input {
@@ -23,5 +35,11 @@ export const NewsletterContainer = styled.section`
     background: red;
     border-radius: 5px;
     cursor: pointer;
+
+    @media (max-width: 576px) {
+    border:2px solid red;
+    padding:10px 15px;
+    font-size: 16px;
+  }
   }
 `;

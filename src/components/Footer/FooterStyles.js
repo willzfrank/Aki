@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
-  padding: 100px 50px;
+  padding:50px;
 
     @media (max-width: 576px) {
     padding:0;
@@ -18,7 +18,6 @@ export const FooterContainer = styled.footer`
     flex-wrap:wrap;
     gap:35px;
     padding:50px 15px;
-    
   }
 
     .followus--container {
@@ -61,6 +60,7 @@ export const FooterBottomContainer = styled.div`
      @media (max-width: 576px) {
       gap:0;
       margin-top:0px;
+      margin-bottom:10px;
       }
 
     .footerbotom--help {
