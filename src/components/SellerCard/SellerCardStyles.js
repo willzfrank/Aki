@@ -23,7 +23,7 @@ export const SellerCardContainer = styled.div`
 
     @media (max-width: 576px) {
     margin: 2px 0px;
-    gap:15px;
+    gap:13px;
   }
 
     span {
@@ -35,7 +35,7 @@ export const SellerCardContainer = styled.div`
 
     .title{
     @media (max-width: 576px) {
-    font-size:23px;
+    font-size:16px;
   }
     }
 
@@ -44,7 +44,7 @@ export const SellerCardContainer = styled.div`
       font-weight: bold;
 
   @media (max-width: 576px) {
-    font-size:23px;
+    font-size:16px;
   }
     }
   }
@@ -74,13 +74,20 @@ export const SellerCardContainer = styled.div`
       margin-bottom: 20px;
       text-align: left !important;
 
-     
+      @media (max-width: 576px) {
+      font-size:20px;
+      margin-bottom: 10px;
+     }
     }
 
     .price {
       font-weight: bold;
       font-size: 25px;
       margin-bottom: 10px;
+
+       @media (max-width: 576px) {
+      font-size:20px;
+     }
     }
 
     .icon--container {
