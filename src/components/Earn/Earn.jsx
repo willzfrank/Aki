@@ -1,20 +1,22 @@
-import React from 'react';
+import { EarnContainer } from './EarnStyles';
 
 const Earn = () => {
   return (
-    <div>
-      <h2>How to Earn on Aki.africa?</h2>
-      <div>
+    <EarnContainer>
+      <h3>How to Earn on Aki.africa?</h3>
+      <div className="earncontainer--box">
         <div>
+          IMAGE HERE
           <img src="" alt="" />
           <p>Read all FAQs</p>
         </div>
         <div>
+          IMAGE HERE
           <img src="" alt="" />
           <p>Read all FAQs</p>
         </div>
       </div>
-    </div>
+    </EarnContainer>
   );
 };
 

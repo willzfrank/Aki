@@ -1,20 +1,25 @@
-import React from 'react';
+import { HeaderContainer } from './HeaderStyle';
 
 const Header = () => {
   return (
-    <div>
-      <div>
-        <div>
+    <HeaderContainer>
+      <div className="HeaderContainer--box">
+        <div className="HeaderContainer--top">
           <p>PRODUCER</p>
-          <span>dot</span>
+          <span></span>
           <p>RESELLERS</p>
-          <span>dot</span>
+          <span></span>
           <p>BUYERS</p>
         </div>
-        <p>Discover how you can turn social media community into money</p>
-        <button>Explore now </button>
+        <p className="text--middle">
+          Discover how you can turn social media
+          <br /> community into money
+        </p>
+        <button>
+          Explore now <i class="uil uil-arrow-right"></i>
+        </button>
       </div>
-    </div>
+    </HeaderContainer>
   );
 };
 

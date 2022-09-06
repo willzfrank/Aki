@@ -1,11 +1,11 @@
-import React from 'react';
+import { FooterContainer, FooterBottomContainer } from './FooterStyles';
 
 const Footer = () => {
   return (
-    <div>
-      <div>
+    <FooterContainer>
+      <div className="footerContainer--box">
         <div>
-          <div>
+          <div className="followus--container">
             <h4>Follow us</h4>
             <ul>
               <li>Facebook</li>
@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <div>
+          <div className="followus--container">
             <h4>Fashion & Beauty</h4>
             <ul>
               <li>Makeup</li>
@@ -25,7 +25,7 @@ const Footer = () => {
               <li>Hair Dressing</li>
             </ul>
           </div>
-          <div>
+          <div className="followus--container">
             <h4>Learning</h4>
             <ul>
               <li>Makeup</li>
@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <div>
+          <div className="followus--container">
             <h4>Health & Wellness</h4>
             <ul>
               <li>Makeup</li>
@@ -46,7 +46,7 @@ const Footer = () => {
               <li>Hair Dressing</li>
             </ul>
           </div>
-          <div>
+          <div className="followus--container">
             <h4>Others</h4>
             <ul>
               <li>Makeup</li>
@@ -56,15 +56,48 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+
+        <div>
+          <div className="followus--container">
+            <h4>Follow us</h4>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <div className="followus--container">
+            <h4>Follow us</h4>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <div className="followus--container">
+            <h4>Follow us</h4>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+        </div>
       </div>
 
-      <div>
-        <div>
+      <FooterBottomContainer>
+        <div className="footerbottom">
           <div>
             <img src="" alt="" />
-            <p>Aki</p>
+            <p>AKI LOGO</p>
           </div>
-          <div>
+          <div className="footerbotom--help">
             <ul>
               <li>Help Center</li>
               <li>Contact Us</li>
@@ -75,10 +108,10 @@ const Footer = () => {
         </div>
         <div>
           <div></div>
-          <button>English</button>
+          {/* <button>English</button> */}
         </div>
-      </div>
-    </div>
+      </FooterBottomContainer>
+    </FooterContainer>
   );
 };
 

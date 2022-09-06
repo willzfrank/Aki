@@ -1,13 +1,25 @@
 import React from 'react';
+import { SellerContainer } from './SellerStyles';
 import SellerCard from '../SellerCard/SellerCard';
 
 const Seller = () => {
   return (
-    <div>
-      <h2>Explore our verified sellers</h2>
-      <SellerCard />
-      <button>Load more</button>
-    </div>
+    <SellerContainer>
+      <h3>Explore our verified sellers</h3>
+      <div className="sellercontainer">
+        <div className="sellercard--list">
+          <SellerCard />
+          <SellerCard />
+          <SellerCard />
+          <SellerCard />
+          <SellerCard />
+          <SellerCard />
+          <SellerCard />
+          <SellerCard />
+        </div>
+        <button>Load more</button>
+      </div>
+    </SellerContainer>
   );
 };
 

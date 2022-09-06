@@ -1,34 +1,41 @@
-import React from 'react';
+import {
+  SearchbarContainer,
+  FormContainer,
+  AccountContainer,
+} from './SearchbarStyles';
 
 const Searchbar = () => {
   return (
-    <div>
+    <SearchbarContainer>
       <div>
         <img src="" alt="" />
-        <p>Aki</p>
+        AKI LOGO
       </div>
 
-      <form>
+      <FormContainer>
         <input
           type="text"
           name=""
           id=""
           placeholder="Search for african products"
         />
-        <button type="submit">Search</button>
-      </form>
+        <button type="submit" className="formcontainer--btn">
+          <i class="uil uil-search"></i>
+          Search
+        </button>
+      </FormContainer>
 
-      <div>
-        <div>
-          user icon
+      <AccountContainer>
+        <div className="accountcontainer--box">
+          <i class="uil uil-user"></i>
           <p>Account</p>
         </div>
-        <div>
-          cart icon
+        <div className="accountcontainer--box">
+          <i class="uil uil-shopping-cart-alt"></i>
           <p>Cart</p>
         </div>
-      </div>
-    </div>
+      </AccountContainer>
+    </SearchbarContainer>
   );
 };
 
