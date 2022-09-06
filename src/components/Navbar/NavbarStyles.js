@@ -7,6 +7,10 @@ export const NavbarContainer = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+    @media (max-width: 576px) {
+    display:none;
+  }
 `;
 
 export const NavbarList = styled.div`
