@@ -8,11 +8,23 @@ export const SellerCardContainer = styled.div`
   flex-direction: column;
   margin: 0px 20px 100px 20px;
 
+  @media (max-width: 576px) {
+    border:1px solid grey;
+    padding:10px 15px;
+    width:100%;
+    margin: 0px;
+  }
+
   .sellercard--profile {
     margin: 5px 0px;
     display: flex;
     gap: 10px;
     text-align: left;
+
+    @media (max-width: 576px) {
+    margin: 2px 0px;
+    gap:15px;
+  }
 
     span {
       width: 40px;
@@ -21,29 +33,48 @@ export const SellerCardContainer = styled.div`
       background: brown;
     }
 
+    .title{
+    @media (max-width: 576px) {
+    font-size:23px;
+  }
+    }
+
     .green {
       color: green;
       font-weight: bold;
+
+  @media (max-width: 576px) {
+    font-size:23px;
+  }
     }
   }
 
   .sellercardcontainer--middle {
     margin: 10px 0 100px 0;
+    
+
+      @media (max-width: 576px) {
+      margin: 0;
+     }
+
+    
 
     .fakeimagecontainer {
       display: flex;
       justify-content: center;
       align-items: center;
-      border: 2px solid red;
       width: 100%;
-      height: 100%;
       border-radius: 5px;
       margin-bottom: 15px;
+
+     
     }
 
     h3 {
       margin-bottom: 20px;
       text-align: left !important;
+
+     
     }
 
     .price {

@@ -7,7 +7,7 @@ const SellerCard = () => {
         <div className="sellercard--profile">
           <span></span>
           <div>
-            <p>Shola pottery</p>
+            <p className="title">Shola pottery</p>
             <p className="green">pottery</p>
           </div>
         </div>

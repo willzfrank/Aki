@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const SellerContainer = styled.section`
+  
   .sellercontainer {
     display: flex;
     align-items: center;
@@ -10,6 +11,10 @@ export const SellerContainer = styled.section`
 
   h3 {
     margin-bottom: 20px;
+
+  @media (max-width: 576px) {
+    font-size:25px;
+  }
   }
 
   .sellercard--list {
@@ -26,5 +31,9 @@ export const SellerContainer = styled.section`
     font-weight: bold;
     width: max-content;
     margin-top: 100px;
+
+    @media (max-width: 576px) {
+    display:none;
+  }
   }
 `;
