@@ -15,7 +15,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div>
+        
           <div className="followus--container">
             <h4>Fashion & Beauty</h4>
             <ul>
@@ -25,7 +25,10 @@ const Footer = () => {
               <li>Hair Dressing</li>
             </ul>
           </div>
-          <div className="followus--container">
+          
+        
+
+        <div className="followus--container">
             <h4>Learning</h4>
             <ul>
               <li>Makeup</li>
@@ -34,9 +37,7 @@ const Footer = () => {
               <li>Hair Dressing</li>
             </ul>
           </div>
-        </div>
 
-        <div>
           <div className="followus--container">
             <h4>Health & Wellness</h4>
             <ul>
@@ -46,7 +47,9 @@ const Footer = () => {
               <li>Hair Dressing</li>
             </ul>
           </div>
-          <div className="followus--container">
+          
+
+        <div className="followus--container">
             <h4>Others</h4>
             <ul>
               <li>Makeup</li>
@@ -55,7 +58,6 @@ const Footer = () => {
               <li>Hair Dressing</li>
             </ul>
           </div>
-        </div>
 
         <div>
           <div className="followus--container">
